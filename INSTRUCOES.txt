@@ -1,0 +1,35 @@
+RITMO 2.0 — COMO ATUALIZAR O APP
+
+O QUE ESTA VERSAO TEM
+- Visual novo em azul-marinho e laranja, adaptado para celular.
+- Painel com quilômetros da semana, volume do mês, pace médio e total de treinos.
+- Gráfico das últimas seis semanas.
+- Registro e histórico de treinos.
+- Calendário com marcação dos dias em que houve treino.
+- Calculadora de pace e conversor de distância.
+- Marcas pessoais para 5 km, 10 km e 12 km.
+- Cadastro e controle de quilometragem dos tênis.
+- Backup JSON e exportação CSV.
+- Mantém as chaves locais antigas de treinos (ritmo_treinos) e plano (ritmo_plano).
+
+IMPORTANTE SOBRE A IA
+A tela Ritmo AI já está no novo visual, mas a geração automática de planilhas ainda NÃO está conectada. Para gerar planilhas com IA de verdade, será necessário configurar um serviço de IA num servidor seguro. Não coloque chaves de API dentro do index.html.
+Por enquanto, a área Planilha permite guardar e organizar as orientações recebidas do treinador.
+
+COMO SUBSTITUIR NO GITHUB
+1. Baixe e extraia este ZIP.
+2. Abra seu repositório Ritmo-corrida no GitHub.
+3. Confirme que está na branch main.
+4. Envie/substitua estes cinco arquivos na raiz do repositório:
+   - index.html
+   - manifest.webmanifest
+   - sw.js
+   - icon-192.png
+   - icon-512.png
+5. Faça o commit das alterações na branch main.
+6. Aguarde alguns minutos para o GitHub Pages atualizar.
+7. Abra o Ritmo no Samsung Internet e atualize a página. Se aparecer o visual antigo, feche a aba e abra novamente.
+
+SEUS TREINOS
+O app continua usando o armazenamento local do navegador. Atualizar os arquivos do site não deve apagar os dados locais que já estão nesse mesmo navegador. Mesmo assim, antes de atualizar, faça um backup na versão atual, por segurança.
+Os dados do Chrome e do Samsung Internet são separados. Para transferir entre navegadores, use Perfil > Backup dos seus dados > Baixar backup e depois Importar backup no outro navegador.
