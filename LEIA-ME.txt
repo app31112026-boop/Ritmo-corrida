@@ -1,0 +1,28 @@
+RITMO 3.0 — PROTÓTIPO PÚBLICO
+
+O QUE JÁ FUNCIONA
+- Interface responsiva para celular e computador.
+- Painel inicial e perfil básico.
+- Registro e histórico de atividades.
+- Calculadora de pace e conversor km/metros.
+- Estruturas educativas de planos por distância e nível.
+- Backup JSON, restauração e exportação CSV.
+- Instalação PWA e cache básico para uso offline.
+
+IMPORTANTE — O QUE AINDA NÃO ESTÁ IMPLEMENTADO
+Esta versão é um protótipo front-end. Os dados ficam no navegador/aparelho.
+Ainda não há cadastro/login real, banco de dados na nuvem, sincronização entre usuários,
+ranking online, comunidade real, notificações push, integração com Garmin/COROS/Strava
+ou geração de planilhas por IA.
+
+PARA PUBLICAR NO GITHUB PAGES
+1. Faça backup dos dados atuais do Ritmo antes de substituir arquivos.
+2. Envie os arquivos desta pasta para a raiz do repositório.
+3. Ative/ confira GitHub Pages na branch e pasta corretas.
+4. Abra o site e teste em celular e computador.
+5. Não publique chaves privadas, senhas ou credenciais Firebase.
+
+PRÓXIMA FASE
+Implementar backend seguro, autenticação, banco de dados, privacidade, sincronização,
+planos revisáveis, desafios públicos e notificações. Serviços e custos precisam ser
+configurados com responsabilidade e sem expor credenciais no navegador.
